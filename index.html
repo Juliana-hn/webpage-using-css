@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+    <link rel="icon" type= "image/png" href="./assets/img/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Tienda Online de Shumi Candles</title>
+</head>
+<body>
+    <div class="grid-container">
+        <nav class="header">
+            <img src="./assets/img/logo.png" width=50px alt="logo">
+            <h1>Shumi Candles</h1>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+
+        <div class="sidebar">
+            <h2>Ordenar Por:</h2>
+            <select class="form-select" aria-label="buscador">
+                <option selected>Más Vendidos</option>
+                <option value="1"> Precio: de Mayor a Menor </option>
+                <option value="2"> Precio: de Menor a Mayor </option>
+            </select>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#seguinos">Seguinos</a></li>
+            </ul>
+        </div>
+
+        <section id="productos">
+        <div class="main container">
+            <h3>Velas Aromáticas Artesanales para tu Hogar</h3>
+            <div class="divPadre">
+                <div class="cards">
+                    <img src="./assets/img/shumicandles.1.jpeg" alt="prod1">
+                    <p>Summer Suntset</p>
+                    <button>Ver</button>
+                </div>
+                <div class="cards">
+                    <img src="./assets/img/shumicandles.2.jpeg" alt="prod2">
+                    <p>Shumis</p>
+                    <button>Ver</button>
+                </div>
+                <div class="cards">
+                    <img src="./assets/img/shumicandles.3.jpeg" alt="prod3">
+                    <p>Summer Suntset & Roses</p>
+                    <button>Ver</button>
+                </div>
+                <div class="cards">
+                    <img src="./assets/img/shumicandles.4.jpeg" alt="prod4">
+                    <p>Peony</p>
+                    <button>Ver</button>
+                </div>
+                <div class="cards">
+                    <img src="./assets/img/shumicandles.5.jpeg" alt="prod5">
+                    <p>Peony & Roses</p>
+                    <button>Ver</button>
+                </div>
+                <div class="cards">
+                    <img src="./assets/img/shumicandles.6.jpeg" alt="prod6">
+                    <p>Shumis</p>
+                    <button>Ver</button>
+                </div>
+                <div class="cards">
+                    <img src="./assets/img/shumicandles.7.jpeg" alt="prod7">
+                    <p>Peony & Roses</p>
+                    <button>Ver</button>
+                </div>
+                <div class="cards">
+                    <img src="./assets/img/shumicandles.8.jpeg" alt="prod8">
+                    <p>Peony & Sakuras</p>
+                    <button>Ver</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <div class=footermini>
+            <div class="footerhijos"><a href="#"> << </a></div>
+            <div class="footerhijos"><a href="#"> 1 </a></div>
+            <div class="footerhijos"><a href="#"> 2 </a></div>
+            <div class="footerhijos"><a href="#"> 3 </a></div>
+            <div class="footerhijos"><a href="#"> >> </a></div>
+        </div>
+
+        <footer class="footer">
+            <div>
+            <img src="./assets/img/logo.png" width=100px alt="logo">
+            </div>
+            <div class="contacto">
+                <form action="#" method="post">
+                    <label for="name" class="datosform">Nombre:</label>
+                        <input type="text" 
+                            id="name" 
+                            name="name" 
+                            placeholder="María" required>                 
+                    <label for="email" class="datosform">Email:</label>
+                        <input type="email" 
+                               id="email" 
+                               name="email"
+                               placeholder="nombre@example.com" required>
+                    <label for="message" class="datosform">Mensaje:</label>
+                               <textarea id="message" 
+                               name="message" 
+                               rows="3" 
+                               placeholder="Mensaje"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="seguinos">
+                <h3>Seguinos en:</h3>
+                <p><i class="fa-brands fa-instagram fa-2x"></i> <a href="https://r.search.yahoo.com/_ylt=AwrE_Fn60ydn9wEApGWr9Qt.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1731873019/RO=10/RU=https%3a%2f%2fwww.instagram.com%2fshumi.candles%2f/RK=2/RS=yOC2j62BVM63otq5_kktavREkFg-" target="_blank">@shumicandles</a></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
